@@ -1,0 +1,10 @@
+{
+  "name": "gather",
+  "version": "0.0.0",
+  "description": "A minimal http module system for node.js, in parallel",
+  "homepage": "https://github.com/gsf/gather",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gsf/gather.git"
+  }
+}
