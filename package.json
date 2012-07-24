@@ -6,5 +6,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/gsf/gather.git"
-  }
+  },
+  "main": "gather.js"
 }
