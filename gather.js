@@ -1,4 +1,4 @@
-module.exports = function gather() {
+module.exports = function pile() {
   var args = Array.prototype.slice.call(arguments)
   var cb = args.pop()
   return function(req, res) {
