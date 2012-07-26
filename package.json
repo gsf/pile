@@ -1,6 +1,6 @@
 {
   "name": "pile",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A minimal http module system for node.js, in parallel",
   "homepage": "https://github.com/gsf/pile",
   "author" : "Gabriel Farrell <g@grrawr.com>",
