@@ -1,11 +1,11 @@
-module.exports = function pile() {
+module.exports = function pile(/*layers*/) {
   var args = Array.prototype.slice.call(arguments)
   var last = args.pop()
   return function(req, res, next) {
     var pending = args.length
     if (!pending) return last(req, res, next)
-    args.forEach(function(fn) {
-      fn(req, res, function() {
+    args.forEach(function(layer) {
+      layer(req, res, function(err) {
         if (!--pending) last(req, res, next)
       }) 
     })
