@@ -1,6 +1,6 @@
 {
   "name": "pile",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A parallel middleware handler for use in concert with stack",
   "homepage": "https://github.com/gsf/pile",
   "author" : "Gabriel Farrell <g@grrawr.com>",
