@@ -1,4 +1,4 @@
 pile
 ======
 
-A minimal http module system for node.js, in parallel
+A parallel middleware handler for use in concert with stack
