@@ -1,4 +1,4 @@
-module.exports = function pile(/*layers*/) {
+module.exports = function pile (/*layers*/) {
   var args = Array.prototype.slice.call(arguments)
   var last = args.pop()
   return function (req, res, next) {
