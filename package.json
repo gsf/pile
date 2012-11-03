@@ -1,12 +1,18 @@
 {
   "name": "pile",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A parallel middleware handler for use in concert with stack",
   "homepage": "https://github.com/gsf/pile",
-  "author" : "Gabriel Farrell <g@grrawr.com>",
+  "author": "Gabriel Farrell <g@grrawr.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gsf/pile.git"
+    "url": "git://github.com/gsf/pile.git"
   },
-  "main": "pile.js"
+  "main": "pile.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
 }
